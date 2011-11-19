@@ -18,7 +18,7 @@ describe PagesController do
   
   describe "GET 'signin'" do
     it "returns http success" do
-      get 'login'
+      get 'signin'
       response.should be_success
     end
   end
